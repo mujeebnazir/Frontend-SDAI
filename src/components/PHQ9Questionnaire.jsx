@@ -303,7 +303,7 @@ const fetchAIRecommendations = async (score, severityLevel) => {
                 </button>
                 
                 <a 
-                  href="https://www.nimh.nih.gov/health/find-help" 
+                  href="https://www.who.int/india/health-topics/mental-health" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg text-white transition-colors duration-200 mr-4"

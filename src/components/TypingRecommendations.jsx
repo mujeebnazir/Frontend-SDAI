@@ -50,7 +50,7 @@ const TypingRecommendations = ({ recommendations, typingSpeed = 30 }) => {
         <li key={`completed-${index}`} className="text-gray-800">{rec}</li>
       ))}
       
-      {currentRecommendationIndex < recommendations.length && (
+      {currentRecommendationIndex < recommendations.length -1 && (
         <li className="text-gray-800">
           <TypingEffect 
             text={recommendations[currentRecommendationIndex]} 
